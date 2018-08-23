@@ -1,0 +1,16 @@
+{
+    "dirs": {
+        "new_file": "File New",
+        "new_dir": "Directory New"
+    },
+    "files": {
+        "open": "Open",
+        "copy": "Copy",
+        "cut": "Move",
+        "rename": "Rename",
+        "delete": "Delete"
+    },
+    "scripts": {
+        "execute": "Execute"
+    }
+}
