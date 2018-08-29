@@ -1,0 +1,72 @@
+{
+    "preferences": {
+        "secondary_color": "lightblue",
+        "secondary_font": "DroidSansMono Nerd Font Mono 9",
+        "root_search_path": "/home/shiko/main",
+        "rofi_path": "/home/shiko/main/configs/rofi",
+        "rofi_options": "-dmenu -sep @ -markup-rows -p Search -normal-window -format i -i"
+    },
+    "manip_options": {
+        "dirs": {
+            "new_file": "File New",
+            "new_dir": "Directory New"
+        },
+        "files": {
+            "open": "Open",
+            "copy": "Copy",
+            "cut": "Move",
+            "rename": "Rename",
+            "delete": "Delete"
+        },
+        "scripts": {
+            "execute": "Execute"
+        }
+    },
+    "applications": {
+        "chrome": {
+            "title": "Google Chrome",
+            "command": "google-chrome-stable"
+        },
+        "virtualbox": {
+            "title": "VirtualBox",
+            "command": "virtualbox"
+        },
+        "messenger": {
+            "title": "Messenger",
+            "command": "messengerfordesktop"
+        },
+        "qutebrowser": {
+            "title": "Qutebrowser",
+            "command": "qutebrowser"
+        },
+        "ranger": {
+            "title": "Ranger",
+            "command": "urxvt -e sudo ranger -r ~/main/configs/ranger"
+        }
+    },
+    "ignored_dirs": [
+        "android_sdk",
+        "music",
+        "cursors",
+        "icons",
+        "fonts",
+        "gradle",
+        "build",
+        "node_modules",
+        "themes",
+        "autokey",
+        "snap",
+        "yay",
+        "syncthing",
+        "vscode_extensions",
+        "downloads",
+        "extensions",
+        "photos",
+        ".git",
+        ".gradle",
+        ".idea",
+        "plugins",
+        "__pycache__",
+        "swap"
+    ]
+}
